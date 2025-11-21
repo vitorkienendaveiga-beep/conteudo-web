@@ -1,0 +1,67 @@
+html,body{
+    width:100vw;
+    height:100%;
+    padding:0;
+    margin:0;
+    background-color:#222;
+    color:#FAFAFA;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(10,10,10,0.5);
+    border:2px #444 solid;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    justify-content: space-between ;
+}
+
+p{
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+
+#quantidade-cliques{
+    padding: 10px;
+    color: darkorchid;
+}
+.info-menor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-menor p {
+    font-size: 18px;
+    width: 50%;
+    color: #CDCDCD;
+    text-again: left;
+}
+
+button{
+    padding: 10px;
+    background-color: orchid;
+    color:#FAFAFA;
+    border-radius: 8px;
+    border: 0;
+    font-size: 24px;
+}
+
+button:hover{
+    background-color: darkorchid;
+    cursor:pointer;
+}
+button:active{
+    transform: scale(0.9);
+}
